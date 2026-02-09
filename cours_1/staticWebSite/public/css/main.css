@@ -1,4 +1,8 @@
 
+body{
+    background-color: whitesmoke;
+}
+
 header{
     display: block;
     margin: auto;
@@ -26,19 +30,20 @@ nav li a{
 
 section{text-align: center;}
 
-.about{
-    border: 2px solid grey;
+section{
+    border: 2px solid white;
+    background-color: white;
     border-radius: 4px;
+    margin: auto;
 }
 
-/*II.a.centrer le tableau*/
-
-/*II.b.Centrer le formulaire*/
-
-/*III. La barre de navigation*/
 
 nav{
     background-color: rgb(58, 198, 58);
+}
+
+footer{
+    text-align: center;
 }
 
 /*IV. Image*/

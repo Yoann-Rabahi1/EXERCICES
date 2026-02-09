@@ -21,7 +21,7 @@
     
     <main>
 
-        <section class="about">
+        <section class="section">
             <h2>À propos de moi</h2>
 
             <img src="public/images/.png" alt="La photo de base">
@@ -31,32 +31,49 @@
                 <pre>   "La technologie ne résout pas les problèmes humains, mais elle nous donne des outils pour les affronter".</pre>
             </p>
         </section>
+
+        <br>
         
-        <section class="skills">
+        <section class="section">
             <h2>Mes compétences</h2>
+            <h3>Langages et outils</h3>
+            <div class="container">
+                    <div class="responsive">
+                        <h3>Web</h3>
+                        <ul>
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>JavaScript</li>
+                            <li>Hacking</li>
+                        </ul>
+                    </div>
 
-            <h3>Langages et outils :</h3>
+                    <div class="responsive">
+                        <h3>Data & ML</h3>
+                        <ul>
+                            <li>Python</li>
+                            <li>Pytorch</li>
+                            <li>Airflow</li>
+                            <li>PostgreSQL</li>
+                        </ul>
+                    </div>
+                </div>
 
-            <h4>Web</h4>
-            <p>HTML5 CSS3 JavaScript Hacking</p>
+                
 
-            <h4>Data & ML</h4>
-            <p>Python Pytorch Airflow PostgreSQL</p>
+                <h3>Attention tremblement de terre !</h3>
+                <p>(Copier ce code dans la console navigateur)</p>
 
-            <h3>Attention tremblement de terre !</h3>
+                <code>
 
-            <p>(Copier ce code dans la console navigateur)</p>
+                    // Code "Tremblement de terre"<br>
 
-            <code>
+                    setInterval(() => {<br>
+                        document.body.style.marginLeft = `${Math.random() * 20 - 10}px`;<br>
+                        document.body.style.marginTop = `${Math.random() * 20 - 10}px`;<br>
+                    }, 100);
 
-                // Code "Tremblement de terre"<br>
-
-                setInterval(() => {<br>
-                    document.body.style.marginLeft = `${Math.random() * 20 - 10}px`;<br>
-                    document.body.style.marginTop = `${Math.random() * 20 - 10}px`;<br>
-                }, 100);
-
-            </code>
+                </code>
         </section>
         
     </main>
