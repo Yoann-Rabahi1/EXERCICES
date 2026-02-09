@@ -1,13 +1,45 @@
 
+header{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+nav li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 12px;
+
+}
+
+nav{
+    color : white
+}
+
+nav li a{
+    text-decoration: none;
+    color: white;
+}
 /*I. Attribuer des couleurs aux différentes parties de la page HTML*/
 
 /*II. Centrer tous les éléments*/
+
+section{text-align: center;}
+
+.about{
+    border: 2px solid grey;
+    border-radius: 4px;
+}
 
 /*II.a.centrer le tableau*/
 
 /*II.b.Centrer le formulaire*/
 
 /*III. La barre de navigation*/
+
+nav{
+    background-color: rgb(58, 198, 58);
+}
 
 /*IV. Image*/
 

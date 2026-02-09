@@ -4,48 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mon site personnel</title>
+    <link href="styles.css" rel="stylesheet">
 </head>
 <body>
-    <h1>Mon site Personel !</h1>
-    <ul>
-        <li><a href="index.html">Accueil</a></li>
-        <li><a href="experiences.html">Mon parcours</a></li>
-        <li><a href="contact.html">Me contacter</a></li>
-    </ul>
 
-    <h2>À propos de moi</h2>
+    <header>
+        <nav>
+        <h1>Mon site Personel !</h1>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="experiences.html">Mon parcours</a></li>
+            <li><a href="contact.html">Me contacter</a></li>
+        </ul>
+    </nav>
+    </header>
+    
+    <main>
 
-    <img src="public/images/Logo_Efrei.png" alt="La photo de base">
+        <section class="about">
+            <h2>À propos de moi</h2>
 
-    <p>
-        Bonjour ! Je m'appelle Yoann, et je suis un étudiant passionné par le développement web et les nouvelles technologies.
-        <pre>   "La technologie ne résout pas les problèmes humains, mais elle nous donne des outils pour les affronter".</pre>
-    </p>
+            <img src="public/images/.png" alt="La photo de base">
 
-    <h2>Mes compétences</h2>
+            <p>
+                Bonjour ! Je m'appelle Yoann, et je suis un étudiant passionné par le développement web et les nouvelles technologies.
+                <pre>   "La technologie ne résout pas les problèmes humains, mais elle nous donne des outils pour les affronter".</pre>
+            </p>
+        </section>
+        
+        <section class="skills">
+            <h2>Mes compétences</h2>
 
-    <h3>Langages et outils :</h3>
+            <h3>Langages et outils :</h3>
 
-    <h4>Web</h4>
-    <p>HTML5 CSS3 JavaScript Hacking</p>
+            <h4>Web</h4>
+            <p>HTML5 CSS3 JavaScript Hacking</p>
 
-    <h4>Data & ML</h4>
-    <p>Python Pytorch Airflow PostgreSQL</p>
+            <h4>Data & ML</h4>
+            <p>Python Pytorch Airflow PostgreSQL</p>
 
-    <h3>Attention tremblement de terre !</h3>
+            <h3>Attention tremblement de terre !</h3>
 
-    <p>(Copier ce code dans la console navigateur)</p>
+            <p>(Copier ce code dans la console navigateur)</p>
 
-    <code>
+            <code>
 
-        // Code "Tremblement de terre"<br>
+                // Code "Tremblement de terre"<br>
 
-        setInterval(() => {<br>
-            document.body.style.marginLeft = `${Math.random() * 20 - 10}px`;<br>
-            document.body.style.marginTop = `${Math.random() * 20 - 10}px`;<br>
-        }, 100);
+                setInterval(() => {<br>
+                    document.body.style.marginLeft = `${Math.random() * 20 - 10}px`;<br>
+                    document.body.style.marginTop = `${Math.random() * 20 - 10}px`;<br>
+                }, 100);
 
-    </code>
+            </code>
+        </section>
+        
+    </main>
+
+    
     <br>
     <footer>
         <small>&copy; 2025 - Mon site Personnel</small>
