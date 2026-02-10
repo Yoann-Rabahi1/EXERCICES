@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mon site personnel</title>
-    <link href="styles.css" rel="stylesheet">
+    <link href="public/css/index.css" rel="stylesheet">
 </head>
 <body>
 
     <header>
+        <h1>Mon site Personnel !</h1>
         <nav>
-        <h1>Mon site Personel !</h1>
         <ul>
             <li><a href="index.html">Accueil</a></li>
             <li><a href="experiences.html">Mon parcours</a></li>
@@ -21,10 +21,10 @@
     
     <main>
 
-        <section class="section">
+        <section class="about">
             <h2>À propos de moi</h2>
 
-            <img src="public/images/.png" alt="La photo de base">
+            <img src="public/images/profile_picture.jpg" alt="La photo de base">
 
             <p>
                 Bonjour ! Je m'appelle Yoann, et je suis un étudiant passionné par le développement web et les nouvelles technologies.
@@ -34,32 +34,29 @@
 
         <br>
         
-        <section class="section">
+        <section class="competence">
             <h2>Mes compétences</h2>
             <h3>Langages et outils</h3>
-            <div class="container">
                     <div class="responsive">
                         <h3>Web</h3>
                         <ul>
-                            <li>HTML5</li>
-                            <li>CSS3</li>
-                            <li>JavaScript</li>
-                            <li>Hacking</li>
+                            <p>HTML5</p>
+                            <p>CSS3</p>
+                            <p>JavaScript</p>
+                            <p>Hacking</p>
                         </ul>
                     </div>
 
                     <div class="responsive">
                         <h3>Data & ML</h3>
                         <ul>
-                            <li>Python</li>
-                            <li>Pytorch</li>
-                            <li>Airflow</li>
-                            <li>PostgreSQL</li>
+                            <p>Python</p>
+                            <p>Pytorch</p>
+                            <p>Airflow</p>
+                            <p>PostgreSQL</p>
                         </ul>
                     </div>
-                </div>
-
-                
+            </section>
 
                 <h3>Attention tremblement de terre !</h3>
                 <p>(Copier ce code dans la console navigateur)</p>
@@ -73,9 +70,7 @@
                         document.body.style.marginTop = `${Math.random() * 20 - 10}px`;<br>
                     }, 100);
 
-                </code>
-        </section>
-        
+                </code>        
     </main>
 
     
