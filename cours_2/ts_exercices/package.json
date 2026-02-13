@@ -11,7 +11,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "// ============================================================================\r // TP TYPESCRIPT - DE JAVASCRIPT À TYPESCRIPT\r // ============================================================================",
   "devDependencies": {
     "@types/lodash": "^4.17.23",
     "@types/node": "^25.0.9",
@@ -22,5 +22,6 @@
     "axios": "^1.13.2",
     "date-fns": "^4.1.0",
     "lodash": "^4.17.21"
-  }
+  },
+  "type": "module"
 }
